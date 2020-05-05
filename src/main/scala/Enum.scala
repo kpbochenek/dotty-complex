@@ -62,7 +62,7 @@ object EnumConstructor {
   given String = "HEX"
 
   // Enums can take multiple parameters and can also need implicit ones
-  enum Color(val rgb: Int)(transparent: Boolean)(using String) {
+  enum Color(val rgb: Int)(trnsp: Boolean)(using String) {
     case Red extends Color(1)(true)(using "HEX")
     case Green extends Color(2)(false)
     case Blue extends Color(3)(false)

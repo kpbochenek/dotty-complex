@@ -16,3 +16,7 @@ project/plugins/project/
 **/.bloop
 
 project/metals.sbt
+
+.vscode/
+.metals/
+.bloop/
