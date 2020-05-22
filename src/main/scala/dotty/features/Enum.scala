@@ -1,4 +1,4 @@
-package com.kpbochenek.example.dotty
+package dotty.features
 
 
 object SimpleEnum {
